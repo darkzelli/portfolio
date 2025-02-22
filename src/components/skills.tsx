@@ -35,7 +35,7 @@ const interests: CustomBadgeProps[] = [
 ]
 export default function Skills() {
   return (
-    <div className="skills p-3 flex flex-col overflow-y-scroll border border-dark-3 h-[425px] w-full scrollbar-none rounded-xl button-35">
+    <div className="noscroll p-3 flex flex-col  border border-dark-3 h-[425px] lg:w-[235px] w-[320px] scrollbar-none rounded-xl button-35">
         <div className="mb-3 tracking-widest">Languages:</div>
         <div className="flex flex-wrap mb-3">
           {languages?.map((badge, index) => (

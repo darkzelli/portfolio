@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-.skills::-webkit-scrollbar {
+.noscroll::-webkit-scrollbar {
   display: none;
+}
+.pagelayout{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */

@@ -44,7 +44,7 @@ export default function SocialCard({url, icon}: socialCardInterface) {
   }, [icon])
 
   return (
-    <a href={url} className=" button-35 flex items-center hover:text-2xl justify-center w-[50px] h-[50px] border border-dark-5 rounded-xl mr-2 hover:w-[70px] hover:h-[70px] transition-all duration-[1s] ease-in">
+    <a href={url} className=" button-35 flex items-center hover:text-2xl justify-center w-[50px] h-[50px] border border-dark-5 rounded-xl mr-2 hover:w-[70px] hover:h-[70px] transition-all duration-100 ease-in">
         {selectedIcon}
     </a>
   );

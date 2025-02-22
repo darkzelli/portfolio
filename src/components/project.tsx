@@ -18,7 +18,7 @@ badges?: CustomBadgeProps[];
 }
 export default function Project({projectName, dateStarted,  dateFinished, description, urlColor, gifUrl, badges, }: ProjectProps) {
   return (
-    <div className="flex flex-col border border-dark-3 p-4 rounded-xl mt-2 button-35">
+    <div className=" flex flex-col border border-dark-3 p-4 rounded-xl mt-2 button-35">
         <div className="mt-1 text-2xl font-bold">{projectName}</div>
         <div className="mt-1 text-[#A005FF]">{dateStarted} - {dateFinished}</div>
         <div className=" mt-2 text-[#abaeb3]">{description}</div>
