@@ -28,11 +28,11 @@ export default function Project({projectName, dateStarted,  dateFinished, descri
           ))}
         </div>
         <div className="flex flex-row ">
-          <a href="https://tailwindcss.com/docs/font-weight" className="mr-3 mt-5 p-[5px] text-white text-1xl flex flex-row items-center justify-evenly  bg-black w-[110px] rounded-sm">
+          <a href="https://portfolioreview.me/" className="mr-3 mt-5 p-[5px] text-white text-1xl flex flex-row items-center justify-evenly  bg-black w-[110px] rounded-sm">
               <CiGlobe/>
               <div>Website</div>
           </a>
-          <a href="https://tailwindcss.com/docs/font-weight" className="mt-5 p-[5px] text-white text-1xl flex flex-row items-center justify-evenly  bg-[#A005FF] w-[110px] rounded-sm">
+          <a href="https://github.com/darkzelli/portfolioreview" className="mt-5 p-[5px] text-white text-1xl flex flex-row items-center justify-evenly  bg-[#A005FF] w-[110px] rounded-sm">
               <BsGithub/>
               <div>Source</div>
           </a>

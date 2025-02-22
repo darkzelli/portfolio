@@ -5,8 +5,8 @@ export default function Socials(){
       <div className="flex flex-row items-center h-[70px] mb-2">
         <SocialCard url="https://github.com/darkzelli"/>
         <SocialCard url="mailto:zacharyhallellis@gmail.com?" icon="gmail"/>
-        <SocialCard url="https://github.com/darkzelli" icon="linkedIn"/>
-        <SocialCard url="https://github.com/darkzelli" icon="youtube"/>
+        <SocialCard url="/" icon="linkedIn"/>
+        <SocialCard url="/" icon="youtube"/>
       </div>
     </div>
   );
