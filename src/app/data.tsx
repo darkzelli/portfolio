@@ -8,8 +8,7 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
     dateStarted: "Jan 2023",
     dateFinished: "Feb 2024",
     description: "Designed and created a platform for software engineers to receive feedback on their portfolios. Created a system to self-host the application on a VPS through SSH using Coolify. Implemented an efficient caching system using a combination of React Query and the NextJS API for a reliable and fast user interface",
-    urlColor: "#A005FF",
-    gifUrl: "https://media2.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif?cid=6c09b952y80leeflljm6ipq1b7s7o7s5ft4cm1xpyv4ardgg&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    gifUrl: "https://i.imgur.com/qRh51F7.gif",
     badges: [
       reactBadge,
       typescriptBadge,
@@ -18,59 +17,13 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
       nextBadge,
       postgreSQLBadge,
       coolifyBadge,
-    ]
+    ],
+    website: "https://portfolioreview.me/",
+    github: "https://github.com/darkzelli/portfolioreview"
   },
-  {
-    projectName: "Portfolio Review",
-    dateStarted: "Jan 2023",
-    dateFinished: "Feb 2024",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    urlColor: "#A005FF",
-    gifUrl: "https://media2.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif?cid=6c09b952y80leeflljm6ipq1b7s7o7s5ft4cm1xpyv4ardgg&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-    badges: [
-      reactBadge,
-      typescriptBadge,
-      reactQueryBadge,
-      nodeBadge,
-      nextBadge,
-      postgreSQLBadge,
-      coolifyBadge,
-    ]
-  },
-  {
-    projectName: "Portfolio Review",
-    dateStarted: "Jan 2023",
-    dateFinished: "Feb 2024",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    urlColor: "#A005FF",
-    gifUrl: "https://media2.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif?cid=6c09b952y80leeflljm6ipq1b7s7o7s5ft4cm1xpyv4ardgg&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-    badges: [
-      reactBadge,
-      typescriptBadge,
-      reactQueryBadge,
-      nodeBadge,
-      nextBadge,
-      postgreSQLBadge,
-      coolifyBadge,
-    ]
-  },
-  {
-    projectName: "Portfolio Review",
-    dateStarted: "Jan 2023",
-    dateFinished: "Feb 2024",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    urlColor: "#A005FF",
-    gifUrl: "https://media2.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif?cid=6c09b952y80leeflljm6ipq1b7s7o7s5ft4cm1xpyv4ardgg&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-    badges: [
-      reactBadge,
-      typescriptBadge,
-      reactQueryBadge,
-      nodeBadge,
-      nextBadge,
-      postgreSQLBadge,
-      coolifyBadge,
-    ]
-  },
+
+
+
  ]
 
  export const accordians:  accordianInterface[] = [
