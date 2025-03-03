@@ -14,7 +14,7 @@ const featuredProject = projects[0];
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen gap-2 lg:flex-row">
+    <div className="flex flex-col justify-center items-center min-h-screen gap-2 lg:flex-row ">
         <div className="flex flex-col justify-center items-center">
           <Project
             projectName={featuredProject.projectName}
@@ -25,6 +25,7 @@ export default function Home() {
             github={featuredProject.github}
             website={featuredProject.website}
             gifUrl={featuredProject.gifUrl}
+            accentColor={featuredProject.accentColor}
             />
           <ProjectButtons/>
         </div>

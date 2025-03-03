@@ -56,5 +56,15 @@ export const javaBadge: CustomBadgeProps ={
   bgColor: "#e6e9ed",
   textColor: "#000",
 }
+export const flutterBadge: CustomBadgeProps ={
+  text: "Flutter",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
+export const supabaseBadge: CustomBadgeProps ={
+  text: "Supabase",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
 
 

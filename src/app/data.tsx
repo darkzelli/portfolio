@@ -1,6 +1,6 @@
 import { ProjectProps } from "@/components/project";
 import { accordianInterface } from "@/components/accordian";
-import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, postgreSQLBadge, coolifyBadge } from "./badges";
+import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, postgreSQLBadge, coolifyBadge, supabaseBadge, flutterBadge } from "./badges";
 
  const projects: ProjectProps[] = [
   {
@@ -19,9 +19,23 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
       coolifyBadge,
     ],
     website: "https://portfolioreview.me/",
-    github: "https://github.com/darkzelli/portfolioreview"
+    github: "https://github.com/darkzelli/portfolioreview",
+    accentColor: "#A005FF"
   },
-
+  {
+    projectName: "Yearly",
+    dateStarted: "Nov 2024",
+    dateFinished: "Mar 2025",
+    description: "Developed a cross-platform mobile application using Flutter for iOS and Android.Implemented backend functionality using Supabase, allowing for data storage and authentication.Refactored code to optimize app for performance, ensuring smooth usability. ",
+    gifUrl: "https://i.imgur.com/xOrCkfF.gif",
+    badges: [
+      flutterBadge,
+      supabaseBadge,
+    ],
+    website: "https://yearlyapp.com/",
+    github: "https://github.com/darkzelli/yearly",
+    accentColor: "#006BFF"
+  },
 
 
  ]

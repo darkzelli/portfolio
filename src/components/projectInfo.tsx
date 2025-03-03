@@ -1,6 +1,4 @@
-import Image from "next/image";
-import { Safari } from "@/components/magicui/safari";
-import { SafariProps } from "@/components/magicui/safari";
+
 import CustomBadge from "./custombadge";
 import { CustomBadgeProps } from "./custombadge";
 import { BsGithub } from "react-icons/bs";
@@ -15,15 +13,16 @@ description?: string;
 badges?: CustomBadgeProps[];
 github?: string;
 website?: string;
+accentColor?: string;
 
 }
-export default function ProjectInfo({projectName, dateStarted,  dateFinished, description,badges, github, website}: ProjectInfoProps) {
+export default function ProjectInfo({projectName, dateStarted,  dateFinished, description,badges, github, website, accentColor}: ProjectInfoProps) {
   return (
-    <div className=" flex flex-col border border-dark-3 p-4 rounded-xl mt-2 button-35">
+    <div className=" flex flex-col border border-dark-3 p-4 rounded-xl mt-2 button-35 h-[400px]">
         <div className="mt-1 text-2xl font-bold">{projectName}</div>
-        <div className="mt-1 text-[#A005FF]">{dateStarted} - {dateFinished}</div>
-        <div className=" mt-2 text-[#abaeb3]">{description}</div>
-        <div className="flex flex-wrap flex-row mt-3">
+        <div className="mt-1 " style={{color: accentColor}}>{dateStarted} - {dateFinished}</div>
+        <div className=" mt-2 text-[#abaeb3] h-[200px] overflow-scroll noscroll">{description}</div>
+        <div className="flex flex-wrap flex-row mt-3 overflow-scroll noscroll  h-auto lg:h-[100px]">
           {badges?.map((badge, index) => (
             <CustomBadge key={index} text={badge.text} bgColor={badge.bgColor} textColor={badge.textColor}/>
           ))}
@@ -33,7 +32,7 @@ export default function ProjectInfo({projectName, dateStarted,  dateFinished, de
               <CiGlobe/>
               <div>Website</div>
           </a>
-          <a href={github}className="mt-5 p-[5px] text-white text-1xl flex flex-row items-center justify-evenly  bg-[#A005FF] w-[110px] rounded-sm">
+          <a href={github}className="mt-5 p-[5px] text-white text-1xl flex flex-row items-center justify-evenly w-[110px] rounded-sm" style={{backgroundColor: accentColor}}>
               <BsGithub/>
               <div>Source</div>
           </a>

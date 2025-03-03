@@ -5,7 +5,7 @@ import { FaArrowLeft } from 'react-icons/fa';
 export default async function ProjectsPage() {
   return (
     <div className="flex flex-col justify-center items-center w-full min-h-screen overflow-hidden">
-      <div className='flex flex-row justify-start w-[1000px] h-[700px] overflow-scroll noscroll gap-5'>
+      <div className='flex flex-col lg:flex-row lg:justify-start lg:w-[1000px] lg:h-[700px] overflow-scroll noscroll gap-5'>
       {projects?.map((project, index) => (
            <Project
               key={index}
@@ -17,6 +17,7 @@ export default async function ProjectsPage() {
               github={project.github}
               website={project.website}
               gifUrl={project.gifUrl}
+              accentColor={project.accentColor}
               />
       ))}
       </div>
