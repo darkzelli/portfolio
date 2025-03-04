@@ -67,4 +67,22 @@ export const supabaseBadge: CustomBadgeProps ={
   textColor: "#000",
 }
 
+export const tailwindBadge: CustomBadgeProps ={
+  text: "Tailwind",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
+
+export const viteBadge: CustomBadgeProps ={
+  text: "Vite",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
+
+export const expressBadge: CustomBadgeProps ={
+  text: "Express",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
+
 
