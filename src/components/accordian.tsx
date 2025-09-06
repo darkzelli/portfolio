@@ -3,14 +3,15 @@ import { useState } from 'react';
 
 export interface accordianInterface {
   title: string;
+  img: string;
   description: string;
-  dateStarted: number;
-  dateFinished: number;
+  dateStarted: string;
+  dateFinished: string;
   gpa?: number | null;
   subtext?: string | null;
 }
 
-export default function Accordian({ title, description, dateStarted, dateFinished, gpa=null, subtext=null }: accordianInterface) {
+export default function Accordian({ title, img="", description, dateStarted, dateFinished, gpa=null, subtext=null }: accordianInterface) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
@@ -20,7 +21,12 @@ export default function Accordian({ title, description, dateStarted, dateFinishe
   return (
     <div className="button-35 flex flex-col border border-dark-3 mb-2 p-4 rounded-xl cursor-pointer w-full transition-all duration-200 ease-in" onClick={toggleAccordion}>
       <div  className="flex justify-between items-center">
-        <div className='font-bold'>{title}</div>
+        <div className='flex flex-row justify-between items-center gap-2'>
+          {img != "" ? <div className='w-[50px] h-full rounded-3xl overflow-hidden'>
+           <img src={img}/>
+          </div> : ""}
+          <div className='font-bold'>{title}</div>
+        </div>
         <div>{isOpen ? '-' : '+'}</div>
       </div>
       <div

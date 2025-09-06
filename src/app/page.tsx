@@ -27,7 +27,6 @@ export default function Home() {
             gifUrl={featuredProject.gifUrl}
             accentColor={featuredProject.accentColor}
             />
-          <ProjectButtons/>
         </div>
         <div className="">
           <Socials/>
@@ -35,9 +34,8 @@ export default function Home() {
           <CustomChatBox/>
         </div>
         <div className="lg:w-[235px] w-[320px] flex flex-col gap-2">
-          <Accordian title="Towson University" subtext="Bachelor of Science, Computer Science." description=" Courses: Data Structures & Algorithms, Calculus 1 & 2, Discrete Mathematics" dateStarted={2022} dateFinished={2026} gpa={3.088}/>
+          <Accordian title="Towson University" img="/images/Towson_University.png" subtext="Bachelor of Science, Computer Science." description=" Courses: Data Structures & Algorithms, Calculus 1 & 2, Discrete Mathematics" dateStarted="2022" dateFinished="2026"/>
           <Skills/>
-          <BlogButton/>
         </div>
     </div>
   );
