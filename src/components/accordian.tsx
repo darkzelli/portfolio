@@ -31,7 +31,7 @@ export default function Accordian({ title, img="", website="", description, date
         <div>{isOpen ? '-' : '+'}</div>
       </div>
       <div
-        className={`transition-all duration-200 ease-in-out overflow-scroll ${
+        className={`transition-all duration-200 ease-in-out overflow-scroll doscroll ${
           isOpen ? 'h-[200px]' : 'h-[0px]'
         }`}
       >

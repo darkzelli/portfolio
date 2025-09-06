@@ -204,7 +204,7 @@ body {
 }
 
 /* Custom scrollbar for Firefox */
-* {
+.doscroll{
   scrollbar-width: thin;
   scrollbar-color: #A005FF transparent;
 }
