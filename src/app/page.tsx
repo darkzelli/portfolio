@@ -17,15 +17,7 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center min-h-screen gap-2 lg:flex-row ">
         <div className="flex flex-col justify-center items-center">
           <Project
-            projectName={featuredProject.projectName}
-            dateStarted={featuredProject.dateStarted}
-            dateFinished={featuredProject.dateFinished}
-            description={featuredProject.description}
-            badges={featuredProject.badges}
-            github={featuredProject.github}
-            website={featuredProject.website}
-            gifUrl={featuredProject.gifUrl}
-            accentColor={featuredProject.accentColor}
+            id={1}
             />
         </div>
         <div className="">
