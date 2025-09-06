@@ -4,6 +4,7 @@ import { useState } from 'react';
 export interface accordianInterface {
   title: string;
   img: string;
+  website: string;
   description: string;
   dateStarted: string;
   dateFinished: string;
@@ -11,7 +12,7 @@ export interface accordianInterface {
   subtext?: string | null;
 }
 
-export default function Accordian({ title, img="", description, dateStarted, dateFinished, gpa=null, subtext=null }: accordianInterface) {
+export default function Accordian({ title, img="", website="", description, dateStarted, dateFinished, gpa=null, subtext=null }: accordianInterface) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
@@ -30,7 +31,7 @@ export default function Accordian({ title, img="", description, dateStarted, dat
         <div>{isOpen ? '-' : '+'}</div>
       </div>
       <div
-        className={`transition-all duration-200 ease-in-out overflow-hidden ${
+        className={`transition-all duration-200 ease-in-out overflow-scroll ${
           isOpen ? 'h-[200px]' : 'h-[0px]'
         }`}
       >
@@ -38,7 +39,7 @@ export default function Accordian({ title, img="", description, dateStarted, dat
         {gpa ? <div className='text-[#A005FF]'>GPA: {gpa}</div> : <></>}
         <div className='mt-1 text-[#A005FF]'>{dateStarted} - {dateFinished}</div>
         <div className="mt-1 text-[#abaeb3]">{description}</div>
-        <a href="https://www.towson.edu/" className='text-[#A005FF]'>Website</a>
+        {website != "" ? <a href={website} className='text-[#A005FF]'>Website</a> : ""}
       </div>
     </div>
   );

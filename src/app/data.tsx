@@ -62,6 +62,7 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
   {
     title: "Mettler Toledo",
     img: "/images/Mettler_Toledo.png",
+    website: "https://www.mt.com/us/en/home.html",
     description: "Taught a group of 7 how to earn money online through freelance work and entertainment. Used my experience as a freelance graphic designer to educate my students on how to design thumbnails that grabbed a potential viewer's attention.Learned how to organize, create and give helpful presentations that were tailored to all the club members' needs.",
     dateStarted: "June 2025",
     dateFinished: "Aug 2025"
@@ -69,6 +70,7 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
   {
     title: "Freelance Graphic Designer",
     img: "",
+    website: "",
     description: "Utilized design tools such as Adobe Photoshop, Cinema 4D and Blender to produce high-quality work under tight deadlines. Gained experience in communicating effectively with clients to understand their vision and deliver designs that exceeded expectations. Developed time management skills to balance multiple projects while delivering creative designs on time.",
     dateStarted: "2016",
     dateFinished: "2021"

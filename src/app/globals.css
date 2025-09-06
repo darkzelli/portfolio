@@ -186,3 +186,25 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom scrollbar for Chrome, Safari, Opera */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #abaeb3 0%, #A005FF 100%);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}
+
+/* Custom scrollbar for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #A005FF transparent;
+}

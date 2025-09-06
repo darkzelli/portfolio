@@ -4,7 +4,7 @@ export default function Experience(){
   return(
     <div className="w-[320px] lg:w-[400px]">
       {accordians.map((accordian, index) => (
-             <Accordian key={index} title={accordian.title} img={accordian.img} description={accordian.description} dateStarted={accordian.dateStarted} dateFinished={accordian.dateFinished}/>
+             <Accordian key={index} title={accordian.title} img={accordian.img} website={accordian.website} description={accordian.description} dateStarted={accordian.dateStarted} dateFinished={accordian.dateFinished}/>
        ))}
     </div>
 
