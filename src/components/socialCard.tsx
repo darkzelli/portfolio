@@ -9,10 +9,11 @@ import { FaAddressCard } from "react-icons/fa";
 import Loading from "./loading";
 
 export interface socialCardInterface{
+  type?: string;
   url?: string;
   icon?: string;
 }
-export default function SocialCard({url, icon}: socialCardInterface) {
+export default function SocialCard({url, icon, type}: socialCardInterface) {
   const [selectedIcon, setSelectedIcon] = useState<React.ReactNode>( <Loading/>);
   const [hoverColor, setHoverColor] = useState<string>("hover:text-[#A005FF]");
 
@@ -51,6 +52,7 @@ export default function SocialCard({url, icon}: socialCardInterface) {
 
   return (
     <a
+      type={type}
       href={url}
       className={`button-35  flex items-center justify-center w-[50px] h-[50px] border border-dark-5 rounded-xl mr-2 hover:w-[70px] hover:h-[70px] transition-all duration-100 ease-in ${hoverColor}`}
     >

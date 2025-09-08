@@ -7,7 +7,7 @@ export default function Socials(){
         <SocialCard url="mailto:zacharyhallellis@gmail.com?" icon="gmail"/>
         <SocialCard url="https://www.linkedin.com/in/zachary-hall-b19a80348/" icon="linkedIn"/>
         <SocialCard url="/" icon="youtube"/>
-        <SocialCard url="/resume.pdf" icon="resume"/>
+        <SocialCard url="/resume.pdf" icon="resume" type="application/pdf"/>
       </div>
     </div>
   );
