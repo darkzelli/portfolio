@@ -17,7 +17,7 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center min-h-screen gap-2 lg:flex-row ">
         <div className="flex flex-col justify-center items-center">
           <Project
-            id={1}
+            id={0}
             />
         </div>
         <div className="">

@@ -1,6 +1,6 @@
 import { ProjectProps } from "@/components/project";
 import { accordianInterface } from "@/components/accordian";
-import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, postgreSQLBadge, coolifyBadge, supabaseBadge, flutterBadge, tailwindBadge, viteBadge, expressBadge } from "./badges";
+import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, postgreSQLBadge, coolifyBadge, supabaseBadge, flutterBadge, tailwindBadge, viteBadge, expressBadge, csharpBadge, avaloniaBadge, dartBadge } from "./badges";
 
  const projects: ProjectProps[] = [
   {
@@ -18,7 +18,7 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
       postgreSQLBadge,
       coolifyBadge,
     ],
-    website: "https://portfolioreview.me/",
+    website: "zacharyhall.dev/portfolioreview",
     github: "https://github.com/darkzelli/portfolioreview",
     accentColor: "#A005FF"
   },
@@ -29,10 +29,11 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
     description: "Yearly is a productivity app designed to help users set, track, and achieve their annual goals. It offers features such as daily progress logging, goal setting with milestones and deadlines, visual progress charts, an achievement system, a comprehensive yearly overview dashboard, and smart reminders to keep users motivated and on track.",
     gifUrl: "https://i.imgur.com/xOrCkfF.gif",
     badges: [
+      dartBadge,
       flutterBadge,
       supabaseBadge,
     ],
-    website: "https://yearlyapp.com/",
+    website: "zacharyhall.dev/yearly",
     github: "https://github.com/darkzelli/yearly",
     accentColor: "#006BFF"
   },
@@ -50,11 +51,24 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
       expressBadge,
       nodeBadge
     ],
-    website: "",
+    website: "zacharyhall.dev/tap",
     github: "https://github.com/Romerico234/Towson-Academic-Pathway",
     accentColor: "#f5c842"
   },
-
+  {
+    projectName: "HashSync",
+    dateStarted: "May 2024",
+    dateFinished: "June 2024",
+    description: "HashSync is a cross-platform desktop application that automatically syncs files between devices by detecting files changes and securely transferring updated files. It utilizes the SHA-256 hashing algorithm to detect changes in your file at regular intervals.",
+    gifUrl: "https://camo.githubusercontent.com/35cfe0901c3aaa6524a2e6da489a0e68ecf9dbba81770501f3f1cc2c5b8b08f9/68747470733a2f2f692e696d6775722e636f6d2f436947574271672e706e67",
+    badges: [
+      csharpBadge,
+      avaloniaBadge
+    ],
+    website: "zacharyhall.dev/hashsync",
+    github: "https://github.com/darkzelli/hashsync?tab=readme-ov-file",
+    accentColor: "#006BFF"
+  },
 
  ]
 
@@ -63,7 +77,9 @@ import { nodeBadge, reactBadge, reactQueryBadge, typescriptBadge ,nextBadge, pos
     title: "Mettler Toledo",
     img: "/images/Mettler_Toledo.png",
     website: "https://www.mt.com/us/en/home.html",
-    description: "Taught a group of 7 how to earn money online through freelance work and entertainment. Used my experience as a freelance graphic designer to educate my students on how to design thumbnails that grabbed a potential viewer's attention.Learned how to organize, create and give helpful presentations that were tailored to all the club members' needs.",
+    description: `Created a Blazor-based C# search engine enabling Field Service Engineers to access data 15% faster.
+Developed unit and integration tests, boosting code coverage by 50% and reducing potential bugs.
+Utilized Visual Studio IDE to debug user-reported issues and implement solutions.`,
     dateStarted: "June 2025",
     dateFinished: "Aug 2025"
   },

@@ -85,4 +85,89 @@ export const expressBadge: CustomBadgeProps ={
   textColor: "#000",
 }
 
+export const csharpBadge: CustomBadgeProps ={
+  text: "C#",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
+
+export const dartBadge: CustomBadgeProps ={
+  text: "Dart",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
+
+export const javaScriptBadge: CustomBadgeProps ={
+  text: "JavaScript",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
+
+export const htmlBadge: CustomBadgeProps = {
+  text: "HTML",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const cssBadge: CustomBadgeProps = {
+  text: "CSS",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const reactjsBadge: CustomBadgeProps = {
+  text: "ReactJS",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const gitBadge: CustomBadgeProps = {
+  text: "Git",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const nodejsBadge: CustomBadgeProps = {
+  text: "NodeJS",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const supabaseLightBadge: CustomBadgeProps = {
+  text: "Supabase",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const nextjsLightBadge: CustomBadgeProps = {
+  text: "Nextjs",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const reactQueryLightBadge: CustomBadgeProps = {
+  text: "React Query",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const awsSesLightBadge: CustomBadgeProps = {
+  text: "AWS SES",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const coolifyLightBadge: CustomBadgeProps = {
+  text: "Coolify",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+};
+
+export const avaloniaBadge: CustomBadgeProps = {
+  text: "Avalonia UI",
+  bgColor: "#e6e9ed",
+  textColor: "#000",
+}
+
+
 

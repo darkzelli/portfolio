@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoIosSend } from "react-icons/io";
 import { Slide } from "react-awesome-reveal";
 export default function CustomChatBox() {
+  const [mailto, setMailto] = useState("")
+
+  function handleChange(e : React.ChangeEvent<HTMLInputElement>){
+    var message = e.target.value
+    var encodedMessage = message.replaceAll(" ", "%20")
+    setMailto("mailto:zacharyhallellis@gmail.com?subject=Portolfio%20Message&body=" + encodedMessage)
+  }
+
   return (
     <div className="overflow-hidden bg-white flex-col w-[400px] h-[400px] border border-dark-3 p-4  rounded-xl hidden lg:flex  button-35">
       <div className="flex flex-row">
@@ -37,9 +45,10 @@ export default function CustomChatBox() {
             <input
               className="w-full h-full bg-transparent outline-none text-gray-800 placeholder-gray-500 "
               placeholder="Enter a message"
+              onChange={(e) => handleChange(e)}
             />
           </div>
-          <a href="mailto:zacharyhallellis@gmail.com?" className="w-[50px] h-[50px] border border-dark-5 rounded-xl flex items-center justify-center bg-[#e6e9ed] hover:bg-[#A005FF] cursor-pointer transition-all ease-in" ><IoIosSend/></a>
+          <a href={mailto} className="w-[50px] h-[50px] border border-dark-5 rounded-xl flex items-center justify-center bg-[#e6e9ed] hover:bg-[#A005FF] cursor-pointer transition-all ease-in" ><IoIosSend/></a>
         </div>
       </div>
     </div>

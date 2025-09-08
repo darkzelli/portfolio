@@ -2,29 +2,41 @@
 
 import { CustomBadgeProps } from "./custombadge";
 import CustomBadge from "./custombadge";
-import { nodeBadge, nextBadge, typescriptBadge, pythonBadge, cppBadge, javaBadge} from "@/app/badges";
-
+import { nodeBadge, nextBadge, typescriptBadge, pythonBadge, cppBadge, javaBadge, csharpBadge, javaScriptBadge, dartBadge } from "@/app/badges";
+import {
+  htmlBadge,
+  cssBadge,
+  reactjsBadge,
+  gitBadge,
+  nodejsBadge,
+  supabaseLightBadge,
+  nextjsLightBadge,
+  reactQueryLightBadge,
+  awsSesLightBadge,
+  coolifyLightBadge
+} from "@/app/badges";
 
 const languages: CustomBadgeProps[] = [
+  javaScriptBadge,
   typescriptBadge,
   pythonBadge,
-  cppBadge,
   javaBadge,
+  csharpBadge,
+  dartBadge
 ]
 
 const other: CustomBadgeProps[] = [
-    { "text": "HTML", bgColor: "#e6e9ed",textColor: "#000"},
-    { "text": "CSS", bgColor: "#e6e9ed",textColor: "#000" },
-    { "text": "ReactJS", bgColor: "#e6e9ed",textColor: "#000" },
-    { "text": "Git", bgColor: "#e6e9ed",textColor: "#000" },
-    { "text": "NodeJS", bgColor: "#e6e9ed",textColor: "#000" },
-    { "text": "Supabase", bgColor: "#e6e9ed",textColor: "#000" },
-    { "text": "Nextjs", bgColor: "#e6e9ed",textColor: "#000" },
-    { "text": "React Query", bgColor: "#e6e9ed",textColor: "#000" },
-    { "text": "AWS SES", bgColor: "#e6e9ed",textColor: "#000" },
-    { "text": "Coolify", bgColor: "#e6e9ed",textColor: "#000" }
-
-]
+  htmlBadge,
+  cssBadge,
+  reactjsBadge,
+  gitBadge,
+  nodejsBadge,
+  supabaseLightBadge,
+  nextjsLightBadge,
+  reactQueryLightBadge,
+  awsSesLightBadge,
+  coolifyLightBadge
+];
 
 const interests: CustomBadgeProps[] = [
   { "text": "Graphic Design", bgColor: "#e6e9ed",textColor: "#000"},
